@@ -75,11 +75,11 @@ export function ProfileScreen() {
     }
     setData(cloneData);
   };
-  const addFormWork = (type: number, content: InterWork) => {
+  const addFormWork = (type: number, contents: InterWork) => {
     const cloneData = [...data];
     const isSelect = cloneData.find((item) => item.type === type);
     if (isSelect) {
-      isSelect.content.push(content);
+      isSelect.content.push(contents);
     }
     setData(cloneData);
   };
@@ -89,7 +89,7 @@ export function ProfileScreen() {
       <View>
         <TextInput
           placeholder="Here..."
-          value={textInput1}
+          defaultValue={textInput1}
           style={styles.textInput}
           onChangeText={(text) => setTextInput1(text)}
         />
