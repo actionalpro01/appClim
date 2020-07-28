@@ -1,0 +1,15 @@
+export enum Screen {
+  Loading = 'Loading',
+  Authen = 'Authen',
+  BottomTab = 'BottomTab',
+  SignIn = 'SignIn',
+  SignUp = 'SignUp',
+  JobsStack = 'JobsStack',
+  MyWorkStack = 'MyWorkStack',
+  MessageStack = 'MessageStack',
+  ProfileStack = 'ProfileStack',
+  Jobs = 'Jobs',
+  Mywork = 'My work',
+  Message = 'Message',
+  Profile = 'Profile',
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1027473222243",
+    "firebase_url": "https://appclim-a211298.firebaseio.com",
+    "project_id": "appclim-a211298",
+    "storage_bucket": "appclim-a211298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027473222243:android:0cf4312ba70caa59a16656",
+        "android_client_info": {
+          "package_name": "com.appclim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027473222243-sf9f72pt6jkrip6hkmuileq6v0muetlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODiMgaNCWvtDQ-tmCO6pftEbMB_XNf0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027473222243-sf9f72pt6jkrip6hkmuileq6v0muetlh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1027473222243-1hrnmst1fsoh5k42bqnlaha4gf303oai.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.AppClim"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
