@@ -48,7 +48,6 @@ export interface InterWork {
   id: string;
   title: string;
   position: string;
-  duration: string;
 }
 export function ProfileScreen() {
   const [modalVisible, setModalVisible] = useState(false);
@@ -145,7 +144,8 @@ export function ProfileScreen() {
         <TextInput
           placeholder="Here..."
           style={styles.textInput}
-          defaultValue={textInput}
+          defaultValue={textInput3}
+          onChangeText={(text) => setTextInput3(text)}
         />
         <RNPickerSelect
           onValueChange={(value) => console.log(value)}
@@ -161,6 +161,11 @@ export function ProfileScreen() {
           style={{...styles.openButton, backgroundColor: '#2196F3'}}
           onPress={() => {
             setModalVisible(false);
+            addFormWork(type, {
+              id: Math.random().toString(),
+              title: textInput3,
+              position: 'student',
+            });
           }}>
           <Text style={styles.textStyle}>Agree</Text>
         </TouchableHighlight>
